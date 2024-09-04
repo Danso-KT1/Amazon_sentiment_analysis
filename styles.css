@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 800;
+}
+
+/* Centered logo styling */
+.stImage {
+    display: flex;
+    justify-content: center;
+}
+
+/* Button styling */
+.stButton>button {
+    background-color: #FF9900;
+    color: white;
+    border: none;
+    padding: 0.5em 1.5em;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.stButton>button:hover {
+    background-color: #CC7A00;
+}
+
+/* Input styling */
+.stTextInput>div>div>input,
+.stTextArea>div>div>textarea {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0.5em;
+}
+
+/* Horizontal rule styling */
+hr {
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    margin: 50px 0 20px 0;
+}
